@@ -27,7 +27,6 @@
 //         console.log(`${i} * ${tabuada} = ${i * tabuada}`);
 //     }
 // }
-
 //--------Exercicio 04-----------
 // let quadrado = 0;
 // for (let num = 1; num <= 100; num++){
@@ -37,8 +36,23 @@
 //     }
 // }
 //--------Exercicio 05-----------
-
-
-
-
+// for(let i = 0; i <= 60; i++){
+//     console.log(`${("0"+i).slice(-2)}`)
+// }
 //--------Exercicio 06-----------
+// let continuar = true;
+// let total = 0;
+// do{
+//     continuar = confirm("Clique 'Ok' para inserir um numero ou 'Cancelar' para finalizar");
+//     if(continuar){
+//         let valor = prompt("Insira um numero");
+//         if (isNaN(valor)){
+//             alert("valor invalido");
+//             continuar = false;
+//         } else {
+//             total += parseFloat(valor);
+//         }
+//     }else{
+//         alert(`A soma dos numeros é ${total}`)
+//     }
+// }while(continuar);
