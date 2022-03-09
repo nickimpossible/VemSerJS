@@ -27,6 +27,7 @@
 //         console.log(`${i} * ${tabuada} = ${i * tabuada}`);
 //     }
 // }
+
 //--------Exercicio 04-----------
 // let quadrado = 0;
 // for (let num = 1; num <= 100; num++){
@@ -35,10 +36,12 @@
 //     console.log(`Quadrado de ${num} é : ${quadrado}`);
 //     }
 // }
+
 //--------Exercicio 05-----------
 // for(let i = 0; i <= 60; i++){
 //     console.log(`${("0"+i).slice(-2)}`)
 // }
+
 //--------Exercicio 06-----------
 // let continuar = true;
 // let total = 0;
